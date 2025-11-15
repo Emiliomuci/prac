@@ -1,0 +1,57 @@
+@startmindmap
+<style> 
+mindmapDiagram {
+    .frontend*{
+        BackgroundColor lightgreen
+    }
+    .JavaScript*{
+        BackgroundColor yellow
+    }
+    .backend*{
+        BackgroundColor lightblue
+
+    }
+    .Devops*{
+        BackgroundColor lightpink
+    
+    }
+
+}
+</style>
+
+* Aprender Programación
+++ Frontend <<frontend>>
++++ HTML 
+++++ Estructura
++++ CSS
+++++ flexbox
+++++ grid
+
+++ JavaScript <<JavaScript>>
++++ ES6
++++ DOM
+
+
+-- Backend <<backend>>
+--- Node.js
+--- Express
+--- APIs
+
+
+-- DevOps <<Devops>>
+--- Git
+---- GitHub
+---- GitLab
+---- Bitbucket
+---- Seguridad
+--- Docker
+--- CI/CD
+
+
+
+
+
+
+
+
+@endmindmap
