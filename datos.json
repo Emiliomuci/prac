@@ -1,0 +1,56 @@
+@startjson
+title Proyecto
+<style> 
+.h1 {
+    BackgroundColor red
+    FontColor white
+ontStyle italic
+
+}
+
+.h2 {
+    BackgroundColor green
+    FontColor white
+    FontStyle bold
+
+}
+</style>
+
+#highlight "name"
+#highlight "version" <<h1>>
+#highlight "Scripts" / "start" <<h2>>
+#highlight "author" / "contraseñas" / "pass3" / "subpass1" <<h1>> 
+{
+"name":"version",
+"version": "1.2.3",
+"Descripcion": "Aplicacion web",
+"Main": "index.js",
+"Scripts": {
+    "start": "node js",
+    "dev": "nodemon",
+    "test": "jest",
+    "build": "webpack"
+},
+"Dependencies": {
+
+    "express": "4.1.3",
+    "mongoose": "5.9.7",
+    "cors": "2.8.5"
+},
+"author": {
+    "name": "Juan Perez",
+    "user_name":"Soejf",
+    "contraseñas": {
+        "pass1":"12345",
+        "pass2":"67890",
+        "pass3": {
+            "subpass1":"abcde",
+            "subpass2":"fghij"
+        }
+}, 
+    "edad": "30 years old"
+
+}
+
+ }
+@endjson
