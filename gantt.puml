@@ -1,0 +1,26 @@
+@startgantt 
+title Desarrollo Aplicación E-commerce
+printscale daily
+
+Project starts 2025-11-01
+
+-- Fase 1: Planificacion --
+[Reunion kick-off] lasts 1 day
+[Definir requisitos] lasts 3 days and starts at [Reunion kick-off]'s end
+[Diseño UX/UI] lasts 5 days and starts at [Definir requisitos]'s end
+[Aprobacion diseño] happens at [Diseño UX/UI]'s end
+
+-- Fase 2 Set up -- 
+[Set up] lasts 1 day and starts at [Aprobacion diseño]'s end
+[Configurar CI/CD] lasts 2 days and starts at [Set up]'s end
+
+-- Fase 3 Desarrollo --
+[autenticacion] lasts 5 days and starts at [Configurar CI/CD]'s end 
+[autenticacion] is colored in green
+[autenticacion] is 100% completed
+
+[cata] lasts 7 days and starts at [autenticacion]'s end
+[cata] is colored in red
+[cata] is 30% completed 
+
+@endgantt
