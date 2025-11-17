@@ -37,19 +37,52 @@ y un multilenguaje sería algo como visual studio code
 ## GIT
 6. ¿Qué es un sistema de control de versiones y para qué sirve?
 
+Un sistema de control de versiones como un historial de un archivo en base de sus actualizaciones, sirve para guardar la inforamción y pode editarla y colaborar en equipo
+
+
+
 7. Tipos de sistemas de control de versiones: local, centralizado y distribuido — diferencias clave.
 
+- local: En ordenador local
+- centralizada: En un servidor
+- Distribuida: Cada desarrollador tiene una copia del historial.
+
+
+
+
+
 8. ¿Qué es Git y quién lo creó? ¿Por qué se creó Git?
+Git es un sistema de control de versione desarrollado por Linus Torvalds, se creo porque el beekeper dejo de ser gratuito y se volvió de pago. 
+
 
 9. Diferencia entre Git y GitHub.
 
+Basicamente que git es un sistema de control de vetsiones, y github utiliza a git para poder manejar los repositorios
+
 10. Comandos básicos: git init, git add, git commit, git push, git pull, git clone — indica para qué sirve cada uno.
+- git init: Inicializas el archivo .git
+- git add: se agrega al staging are
+- git commit: se commitea los cambios, actualizaciones o trabajo en el archivo.
+- git push: La información se manda al repositorio que se necuentra en github
+- git pull: Este hace dos cosas, git merge y git fetch, el cual git merge hace un enlace entre ramas y fetch actualiza los cambios en los datos. y si los fucionamos eso hace git pull.
+git clone: clona el repositorio
+
+
 
 11. ¿Qué es el working directory, staging area y repository (tres áreas de Git)?
+- Working Directory: En el, se hace todos los cambios del proyecto.
+- staging area: es como una cajita donde se agrega todos los cambios o cosas que se le han hecho al proyecto, todo esto se mete al stagin area para despues ser comiteado y mandado al repositorio.
+- repository: Es donde ya alberga la información comiteada y trabajada
 
 12. ¿Qué es HEAD en Git?
+- Es donde apunta el ultimo commit
 
 13. Estados que muestra git status (untracked, modified, staged, committed).
+
+- untracked: Basicamente que apenas se va inicilizando el proyecto y no ha sido guardado.
+- modified: Que hubieron midificaciones
+- staged: Que fue agregado al staging area para ser comiteado
+committed: Que ya fue committeado y se encuentra en el repostiory
 
 14. git log, git show, git diff — ¿qué muestran?
 
